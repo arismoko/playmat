@@ -1,0 +1,5 @@
+{
+  "name": "playmat",
+  "main": "src/table.ts",
+  "compatibilityDate": "2025-12-31"
+}

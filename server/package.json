@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "partykit dev",
+    "deploy": "partykit deploy",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@playmat/shared": "file:../shared",
+    "partykit": "^0.0.115"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
